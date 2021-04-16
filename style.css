@@ -1,0 +1,119 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS RESET END */
+
+
+
+/* GENERAL */
+body{
+    background-color: skyblue;
+    color: #444;
+    font-size: 16px/28px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h1{
+    font-size: 36px
+}
+
+h2{
+    font-size: 30px;
+}
+
+/* TOP BAR */
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    transition: 0.5s;
+    background-color: rgba(68, 79, 255, 0.3);
+    width: 100%;
+    z-index: 99999;
+}
+
+.menu:hover{
+    background-color: #444;
+}
+
+.menu a {
+    padding: 10px 25px;
+    font-size: 36px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu a:hover {
+    background-color: #ccc;
+    color: #444;
+}
+/* TOP BAR END */
+
+/* INDEX PAGE */
+/* WELCOME */
+.welcomeText{
+    width: 60%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 25px 10px;
+    box-sizing: border-box;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* WELCOME END */
+/* VEKTOR */
+.thatVector{
+    width: 75%;
+    height: auto;
+    margin: 50px auto;
+    display: block;
+}
+.thatVector img{
+    max-width: 1000px;
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    display: block;
+}
