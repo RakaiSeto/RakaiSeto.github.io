@@ -48,10 +48,11 @@ table {
 
 /* GENERAL */
 body{
-    background-color: skyblue;
+    background-image: url(img/blue\ background.jpg);
+    background-size: cover;
     color: #444;
     font-size: 16px/28px;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Comic Sans MS", "Comic Sans", Arial, Helvetica, sans-serif;
 }
 
 h1{
@@ -67,7 +68,7 @@ h2{
     display: flex;
     justify-content: space-evenly;
     transition: 0.5s;
-    background-color: rgba(68, 79, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
     z-index: 99999;
 }
@@ -99,13 +100,13 @@ h2{
     padding: 25px 10px;
     box-sizing: border-box;
     background-color: #eee;
-    border-radius: 50%;
+    border-radius: 20px;
 }
 
 /* WELCOME END */
 /* VEKTOR */
 .thatVector{
-    width: 75%;
+    width: 90%;
     height: auto;
     margin: 50px auto;
     display: block;
