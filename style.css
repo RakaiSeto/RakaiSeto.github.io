@@ -71,6 +71,7 @@ h2{
     background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
     z-index: 99999;
+    height: 60px;
 }
 
 .menu:hover{
@@ -83,11 +84,14 @@ h2{
     color: white;
     text-decoration: none;
     transition: 0.5s;
+    display: flex;
+    align-items: center;
 }
 
 .menu a:hover {
     background-color: #ccc;
     color: #444;
+    border-radius: 10px;
 }
 /* TOP BAR END */
 
