@@ -80,7 +80,7 @@ h2{
 
 .menu a {
     padding: 10px 25px;
-    font-size: 36px;
+    font-size: 24px;
     color: white;
     text-decoration: none;
     transition: 0.5s;
@@ -123,23 +123,91 @@ h2{
     display: block;
 }
 
+.thatVector p{
+    width: 80%;
+    margin: 10px auto;
+    text-align: right;
+    
+}
+
 /* About-us page */
 .us-container{
     margin: 30px auto;
     width: 90%;
     display: flex;
-    align-content: space-around;
+    justify-content: space-around;
 }
 
 .rakai-about, .dindy-about{
     width:50%;
     margin: 0 20px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .rakai-about img, .dindy-about img{
-    width: 250px;
+    width: 60%;
     object-fit: cover;
     align-items: center;
-    justify-content: center;
+    margin: 20px 40%;
+    
+ }
+ 
+.aboutPersonTitle{
+    color: #eee;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 36px;
+}
+
+.rakai-about h2, .dindy-about h2{
+    color: #eee;
+    margin-top: 50px;
+}
+
+.us-container div .testi{
+    width: 50%;
+    margin: 15px 50%;
+}
+
+.aboutPersonDesc{
+    color: #eee;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 5px;
+    font-size: 14px;
+    width: 75%;
+}
+
+/* achievement */
+.achievementContainer {
+    width: 90%;
+    margin: auto;
+}
+
+.achievementContainer h1{
+    color: #fff;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.achievementContainer div{
+    color: #eee;
+    margin: 20px 0;
+}
+
+.achievementContainer div h2{
+    font-size: 20px;
+}
+
+.achievementContainer div img{
+    width: 60%;
+    margin-top: 16px;
 }
