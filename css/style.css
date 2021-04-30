@@ -48,12 +48,12 @@ table {
 
 /* GENERAL */
 body{
-    background-image: url(../img/blue\ background.jpg);
+    background-image: url(../img/blue-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: #444;
     font-size: 16px/28px;
-    font-family: "Comic Sans MS", "Comic Sans", Arial, Helvetica, sans-serif,;
+    font-family: "Comic Sans MS", "Comic Sans", Arial, Helvetica, sans-serif;
 }
 
 h1{
