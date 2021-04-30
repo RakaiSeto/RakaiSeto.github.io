@@ -1,44 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/astrokuciiiiiiiiiiii.png">
-    <title>Helloooooo</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="menu">
-        <a href="index.html">Main menu</a>
-        <a href="about-us.html">About Us</a>
-        <a href="achievement.html">Achievement</a>
-    </div>
 
-    <div class="welcomeText" id="top-welcome">
-        <h2><br> HEYYYYYY, BABEEEE
-            <br>
-            Welcome yaaaaaa, website ini aku bikin buat kita <br> biar kita bisa ngepost kenangan2 kita disini <br><br>
-            Enjoyyyyyy ♡♡♡
-        </h2>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="css/login.css">
+  <script defer src="login.js"></script>
+  <link rel="icon" href="img/astrokuciiiiiiiiiiii.png">
+</head>
+
+<body>
+  <main id="main-holder">
+    <h1 id="login-header">Login</h1>
+    
+    <div id="login-error-msg-holder">
+      <p id="login-error-msg">Passwordnya salah, ka <span id="error-msg-second-line">tanya yang punya web deh</span></p>
     </div>
     
-    <div class="welcomeText">
-        <h2>Aku udah bikinin page profil kita, sama achievement
-            <br>
-            yang profil ya gitu isinya... profil kita
-            <br>
-            klo yang achievement buat klo hari2 penting kita
-        </h2>
-    </div>
-
-    <div class="welcomeText">
-        <h2>
-            Btw, aku pasang vektor kamu disini, gapapa kan ^-^
-        </h2>
-    </div>
-    <div class="thatVector">
-        <img src="img/vektorByDindu.jpg">
-        <p>&#8593; dindu yang bikin lho</p>
-    </div>
+    <form id="login-form">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      <input type="submit" value="Login" id="login-form-submit">
+    </form>
+  
+  </main>
 </body>
+
 </html>
