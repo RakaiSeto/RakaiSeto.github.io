@@ -48,7 +48,7 @@ table {
 
 /* GENERAL */
 body{
-    background-image: url(img/blue\ background.jpg);
+    background-image: url(../img/blue\ background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: #444;
