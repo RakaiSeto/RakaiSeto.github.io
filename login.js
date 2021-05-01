@@ -11,7 +11,7 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.password.value;
 
     if (
-		(username === ("kayi" || "dindy" || "nals" || "nera")) && password === "25maret'21"  
+		(username === ("kayi" || "dindy")) && password === "25maret'21"  
 	) 
 	{
         // If the credentials are valid, show an alert box and reload the page
