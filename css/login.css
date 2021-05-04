@@ -3,5 +3,5 @@ body{
   font-family: 'Comic Neue', cursive;
   background-image: url(../img/blured-blue-background.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:auto;
 }
