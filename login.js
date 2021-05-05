@@ -15,10 +15,10 @@ loginButton.addEventListener("click", (e) => {
 	) 
 	{
         // If the credentials are valid, show an alert box and reload the page
-        alert("You have successfully logged in.");
+        alert("Yay, bisa masuk");
         location.replace("https://rakaiseto.github.io/welcome.html");
     } else {
         // Otherwise, make the login error message show (change its oppacity)
-        loginErrorMsg.style.opacity = 1;
+        alert("Salah passwordnya");
     }
 })
