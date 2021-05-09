@@ -1,0 +1,23 @@
+berdasarkan prioritas yang duluan
+
+1. elemen name (card, cardTitle, h4, etc)
+
+2. width and height
+
+3. elemen formatting (justify content, align content, position relative, dll)
+
+4. background
+    a. gradient
+    b. background
+    c. border
+
+5. text color and format
+    a. text width
+    b. text alignment
+    c. text color
+
+6. shadow
+
+7. spacing
+    a. padding
+    b. margin
