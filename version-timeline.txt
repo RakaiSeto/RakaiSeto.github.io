@@ -1,5 +1,5 @@
 1. beta 0.9 -> rn, yang sekarang
 
-2. global 1.0 -> bikin login system -> ACTIVE
+2. global 1.0 -> bikin login system
 
-3. 1.1 -> hijrah ke bootstrap -> in progress
+3. 1.1 -> hijrah ke bootstrap -> ACTIVE
