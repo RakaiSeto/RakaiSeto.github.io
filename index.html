@@ -1,30 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
-  <link rel="stylesheet" href="css/login.css">
-  <script defer src="login.js"></script>
-  <link rel="icon" href="img/astrokuciiiiiiiiiiii.png">
-</head>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
 
-<body>
-  <main id="main-holder">
-    <h1 id="login-header">Login</h1>
-    
-    <div id="login-error-msg-holder">
-      <p id="login-error-msg">Passwordnya salah, ka <span id="error-msg-second-line">tanya yang punya web deh</span></p>
+    <!-- CSS Pribadi & favicon -->
+    <link rel="stylesheet" href="css/login.css" />
+    <title>Login</title>
+    <link rel="icon" href="img/astrokuci.png" />
+  </head>
+
+  <body>
+    <div
+      class="container rounded position-absolute bg-light bg-gradient top-50 start-50 translate-middle mx-auto"
+      style="width: clamp(50%, 60%, 80%)"
+    >
+      <div class="row justify-content-center">
+        <div class="col-12 py-3">
+          <h3 class="text-center fs-4 mb-3">Hellooooooo, Login dulu yaaa</h3>
+          <form id="login-form">
+            <label for="loginUsername" class="form-label">Username</label>
+            <input name="username" type="text" class="form-control border border-secondary mb-4" id="loginUsername" />
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input name="password" type="password" class="form-control border border-secondary mb-4" id="exampleInputPassword1" />
+            <button type="submit" class="btn btn-primary btn1 m-1" id="login-form-submit">Login</button>
+          </form>
+        </div>
+      </div>
     </div>
-    
-    <form id="login-form">
-      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
-      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
-      <input type="submit" value="Login" id="login-form-submit">
-    </form>
-  
-  </main>
-</body>
 
+    <script src="login.js"></script>
+  </body>
 </html>

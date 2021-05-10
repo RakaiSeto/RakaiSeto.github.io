@@ -1,112 +1,46 @@
-/* Make the page use the entire screen */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+body {
+  font-family: 'Comic Neue', cursive;
+  background-image: url(../img/blured-blue-background.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
 
-html{
-    height: 100%;
-  }
-  
-  body {
-    height: 100%;
-    margin: 0;
-    font-family: "Comic Sans MS", "Comic Sans", Arial, Helvetica;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    background-image: url(../img/blue-background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  /* White rectangle in the middle of the screen */
-  
-  #main-holder {
-    width: 50%;
-    height: 50%;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    background-color: white;
-    border-radius: 7px;
-    box-shadow: 0px 0px 5px 2px black;
-    grid-template-rows: 0.4fr 0.35fr 0.7fr;
-  }
-  
-  /* -------------------------------------------------------------- */
-  
- #login-header{
-     margin: 0;
- }
-  
-  /* -------------------------------------------------------------- */
-  
-  /* Middle row of the main grid (contains the error message) */
-  
-  #login-error-msg-holder {
-    width: 100%;
-    height: 50%;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-  }
-  
-  /* Error message. By default it's transparent, but the opacity is controlled
-  by JavaScript */
-  
-  #login-error-msg {
-    width: 30%;
-    text-align: center;
-    margin: 0;
-    padding: 5px;
-    font-size: 12px;
-    font-weight: bold;
-    color: #8a0000;
-    border: 1px solid #8a0000;
-    background-color: #e58f8f;
-    opacity: 0;
-  }
-  
-  #error-msg-second-line {
-    display: block;
-  }
-  
-  /* -------------------------------------------------------------- */
-  
-  /* Adjust the positioning of the login form inside the last row of the
-  main grid */
-  
-  #login-form {
-    align-self: flex-start;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-  }
-  
-  /* Style the login form fields' placeholders */
-  
-  .login-form-field::placeholder {
-    color: #3a3a3a;
-  }
-  
-  /* Style the login form fields (username and password) */
-  
-  .login-form-field {
-    border: none;
-    border-bottom: 1px solid #3a3a3a;
-    margin-bottom: 10px;
-    border-radius: 3px;
-    outline: none;
-    padding: 0px 0px 5px 5px;
-  }
-  
-  /* Style the login button */
-  
-  #login-form-submit {
-    width: 100%;
-    padding: 7px;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-weight: bold;
-    background-color: #3a3a3a;
-    cursor: pointer;
-    outline: none;
-  }
+.btn {
+  border: 1px solid #3498db;
+  background: none;
+  padding: 8px 20px;
+  font-size: 16px;
+  margin: 8px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn1 {
+  color: #3498db;
+}
+
+.btn1:hover {
+  color: #fff;
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #3498db;
+  z-index: -1;
+  transition: 0.8s;
+}
+
+.btn1::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+.btn1:hover::before {
+  height: 180%;
+}
