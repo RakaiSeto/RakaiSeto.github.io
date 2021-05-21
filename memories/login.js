@@ -13,7 +13,7 @@ loginButton.addEventListener('click', (e) => {
   if ((username === 'kayi' && password === "25maret'21") || (username === 'dindy' && password === "25maret'21")) {
     // If the credentials are valid, show an alert box and reload the page
     alert('Yay, bisa masuk');
-    location.replace('https://rakaiseto.github.io/welcome.html');
+    location.replace('https://rakaiseto.github.io/memories/welcome.html');
   } else {
     // Otherwise, make the login error message show (change its oppacity)
     alert('Salah passwordnya');
