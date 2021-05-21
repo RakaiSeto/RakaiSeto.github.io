@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #c0fefc;
+}
+
+.jumbotron {
+    background-image: url(img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: .3rem;  
+    height: 100%;
+  }
