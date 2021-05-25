@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -15,60 +15,49 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" />
 
     <!-- Personal CSS -->
-    <link rel="stylesheet" href="style.css" />
-    <title>Hello</title>
-    <link rel="icon" href="img/icon.png" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>My Projects</title>
+    <link rel="icon" href="../img/icon.png" />
   </head>
   <body>
-
-    <!-- Main -->
-    <main>
-      <div class="rounded-lg jumbotron d-block text-dark text-center p-5">
-        <h1 class="display-5 mt-3 pt-3">Hey, I'm</h1>
-        <h1 class="display-1 mt-3">Rakai Seto</h1>
-        <h1 class="display-5 mt-5 pb-5">Welcome to my Website</h1>
-        <hr />
-        <p class="lead py-5 my-5">Student | Currently studying Web Development</p>
-        <a href="#carousel" role="button" class="btn btn-secondary mb-3">See my works &rarr;</a>
-      </div>
-
-      <div class="card w-100 mx-auto bg-gradient bg-secondary">
-        <div class="card-body">
-          
-          <div id="carousel" class="carousel slide w-75 mx-auto" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/PROJECTS.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h3 class="mb-2">Projects</h3>
-                  <a href="projects/projects-menu.html" role="button" class="btn btn-secondary">See my Projects &rarr;</a>                  
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="img/portfolio.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h3 class="mb-2">Portfolio</h3>
-                  <a href="portofolio bootstrap 5/test-portfolio.html" role="button" class="btn btn-secondary">See my Portfolio &rarr;</a>                  
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-gradient bg-warning fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Rakai Seto</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="../index.html">Home</a>
+            <a class="nav-link" href="../portofolio bootstrap 5/test-portfolio.html">Portfolio</a>
+            <a class="nav-link active" aria-current="page" href="#">Projects</a>
           </div>
         </div>
       </div>
+    </nav>
 
-    </main>
+    <!-- Main -->
+    <div
+      class="rounded-lg jumbotron d-block text-dark text-center p-5 under-navbar"
+      style="background-image: url(../img/html-pro.jpg)"
+    >
+      <h1 class="display-5 mt-5 pb-5 text-light">HTML Projects</h1>
+      <a href="html-projects.html" role="button" class="btn btn-secondary mb-3 mt-5">See my works &rarr;</a>
+    </div>
+    <div class="rounded-lg jumbotron d-block text-dark text-center p-5" style="background-image: url(../img/javascript-pro.jpg)">
+      <h1 class="display-5 mt-5 pb-5">JavaScript Projects</h1>
+      <a href="js-projects.html" role="button" class="btn btn-secondary mb-3 mt-5">See my works &rarr;</a>
+    </div>
+
     <!-- Footer -->
     <footer class="bg-dark text-white pt-5">
       <div class="container px-4 py-2">
@@ -91,7 +80,11 @@
             role="button"
             ><i class="bi bi-whatsapp"></i
           ></a>
-          <a class="btn btn-outline-light btn-floating mx-1" target="_blank" href="https://mail.google.com/mail/u/0/?fs=1&to=mamangrakai@gmail.com&tf=cm" role="button"
+          <a
+            class="btn btn-outline-light btn-floating mx-1"
+            target="_blank"
+            href="https://mail.google.com/mail/u/0/?fs=1&to=mamangrakai@gmail.com&tf=cm"
+            role="button"
             ><i class="bi bi-envelope"></i
           ></a>
         </section>

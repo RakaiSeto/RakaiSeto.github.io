@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html>
+	<head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,61 +15,39 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" />
 
     <!-- Personal CSS -->
-    <link rel="stylesheet" href="style.css" />
-    <title>Hello</title>
-    <link rel="icon" href="img/icon.png" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>My Projects</title>
+    <link rel="icon" href="../img/icon.png" />
   </head>
-  <body>
+	<body>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-gradient bg-warning fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="../index.html">Rakai Seto</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-link" href="../index.html">Home</a>
+						<a class="nav-link" href="../portofolio bootstrap 5/test-portfolio.html">Portfolio</a>
+						<a class="nav-link" href="#">Projects</a>
+					</div>
+				</div>
+			</div>
+		</nav>
 
     <!-- Main -->
-    <main>
-      <div class="rounded-lg jumbotron d-block text-dark text-center p-5">
-        <h1 class="display-5 mt-3 pt-3">Hey, I'm</h1>
-        <h1 class="display-1 mt-3">Rakai Seto</h1>
-        <h1 class="display-5 mt-5 pb-5">Welcome to my Website</h1>
-        <hr />
-        <p class="lead py-5 my-5">Student | Currently studying Web Development</p>
-        <a href="#carousel" role="button" class="btn btn-secondary mb-3">See my works &rarr;</a>
-      </div>
-
-      <div class="card w-100 mx-auto bg-gradient bg-secondary">
-        <div class="card-body">
-          
-          <div id="carousel" class="carousel slide w-75 mx-auto" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/PROJECTS.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h3 class="mb-2">Projects</h3>
-                  <a href="projects/projects-menu.html" role="button" class="btn btn-secondary">See my Projects &rarr;</a>                  
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="img/portfolio.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h3 class="mb-2">Portfolio</h3>
-                  <a href="portofolio bootstrap 5/test-portfolio.html" role="button" class="btn btn-secondary">See my Portfolio &rarr;</a>                  
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      </div>
-
-    </main>
-    <!-- Footer -->
+    <nav aria-label="breadcrumb" class="pt-3 px-2 ">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="projects-menu.html">Projects</a></li>
+        <li class="breadcrumb-item active" aria-current="page">JavaScript</li>
+      </ol>
+    </nav>
+    <h1 class="display-5 mt-5 pt-5 pb-2 text-center">Nothing Here Yet</h1>
+    <h1 class="display-5 mb-5 pt-2 pb-5 text-center">Try To See Other Projects</h1>
+    
+		<!-- Footer -->
     <footer class="bg-dark text-white pt-5">
       <div class="container px-4 py-2">
         <!-- Section: Social media -->
@@ -129,13 +107,13 @@
         <p class="mb-0 pb-4">Website version 1.1</p>
       </section>
     </footer>
-
-    <!-- Optional JavaScript; choose one of the two! -->
+		
+	  <!-- Optional JavaScript; choose one of the two! -->
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
-  </body>
+	</body>
 </html>

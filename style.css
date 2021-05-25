@@ -2,7 +2,11 @@
 
 body{
   font-family: 'Open Sans', sans-serif;
-  background-color: #c0fefc;
+  background-color: #eee;
+}
+
+body:nth-child(2) {
+  padding-top: 3rem;
 }
 
 .jumbotron {
