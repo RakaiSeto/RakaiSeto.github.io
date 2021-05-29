@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Roboto:wght@300;500;700&display=swap');
+
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+  background-image: url(img/background.jpg);
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+}
+
+#survey-form{
+  background-color: #ccc;
+}
