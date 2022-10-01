@@ -113,6 +113,8 @@ body {
   column-gap: 10px;
   margin-bottom: 30px;
   box-shadow: 3px 3px rgba(0, 0, 0, 0.75);
+  animation: mymove 3s;
+  animation-fill-mode: forwards;
 }
 
 .wrapper .menu-card:hover {
@@ -142,13 +144,19 @@ a {
   width: 80%;
   height: 80%;
   margin: auto;
-  overflow: hidden;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.wrapper .text-box::-webkit-scrollbar{
+  display: none;
 }
 
 .text-box p {
   font-family: var(--font);
   font-weight: var(--p-weight);
-  font-size: 12px;
+  font-size: 15px;
   text-align: left;
   color: var(--main-button);
 }
@@ -182,8 +190,23 @@ a {
   font-size: larger;
   border-radius: 10px;
   border: 0.5px solid black;
+  transition: background-color 1s;
 }
 
 .exit-button:hover {
   background-color: var(--font-border);
+}
+
+
+@keyframes mymove{
+  0%{
+    translate: -200px;
+    opacity: 0;
+    box-shadow: none;
+  }
+
+  100%{
+    translate: 0;
+    opacity: 1;
+  }
 }
