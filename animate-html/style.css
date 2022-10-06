@@ -1,13 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
 :root {
-  --primary: #c69c6d;
-  --secondary: #f1e7dc;
-  --main-button: #41200a;
-  --font-border: #8c6239;
-  --font: 'Merriweather', serif;
-  --title-weight: 900;
-  --p-weight: 400;
+  --primary: #16213E;
+  --secondary: #F7A76C;
+  --main-button: #2B4865;
+  --menu-card: #2B4865;
+  --font-border: #8c6239; 
+  --font-color: white;
+  --font: 'Poppins', sans-serif;;
+  --title-weight: 600;
+  --p-weight: 300;
 }
 
 body {
@@ -16,6 +18,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: chocolate;
 }
 
 #container {
@@ -105,11 +108,11 @@ body {
 .wrapper .menu-card {
   display: flex;
   width: 90%;
-  background-color: var(--font-border);
+  background-color: var(--menu-card);
   height: 11%;
   margin: auto;
   border-radius: 15px;
-  align-items: center;
+  align-items: flex-end;
   column-gap: 10px;
   margin-bottom: 30px;
   box-shadow: 3px 3px rgba(0, 0, 0, 0.75);
@@ -141,30 +144,27 @@ a {
 }
 
 .wrapper .text-box {
-  width: 80%;
+  width: 85%;
   height: 80%;
   margin: auto;
-  overflow: scroll;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-.wrapper .text-box::-webkit-scrollbar{
-  display: none;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  padding-right: 10px;
 }
 
 .text-box p {
   font-family: var(--font);
   font-weight: var(--p-weight);
-  font-size: 15px;
+  font-size: 18px;
   text-align: left;
-  color: var(--main-button);
+  color: var(--font-color);
 }
 
 .text-box li {
     font-family: var(--font);
     font-weight: var(--p-weight);
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .wrapper #exit {
@@ -173,9 +173,10 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: var(--secondary);
+  background-color: #ff9c56;
   width: 45vh;
   height: 30%;
+  border-radius: 12px;
 }
 
 .wrapper .no-blur {

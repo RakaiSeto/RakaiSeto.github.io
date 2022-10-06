@@ -2,6 +2,7 @@ var styleSheet = document.createElement('style');
 function openForm() {
   var styles = `
     .wrapper > *:not(#exit) {filter: blur(2px);}
+    #exit {border: 1px solid black;}
   `;
   styleSheet.innerHTML = styles;
   document.head.appendChild(styleSheet);
